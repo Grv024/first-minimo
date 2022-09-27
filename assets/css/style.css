@@ -1,0 +1,211 @@
+*{
+margin: 0;
+padding:0;
+box-sizing:border-box;
+}
+.mb-70{
+	margin-bottom: 70px;
+}
+.mb-90{
+	margin-bottom: 90px;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+
+.mb-130{
+	margin-bottom: 130px;
+}
+.container{
+	width: 1100px;
+	margin:0 auto;
+	
+}
+.text-right{
+	text-align:right;
+}
+.text-center{
+	text-align:center;
+}
+
+ul{
+	list-style:none;
+	   
+}
+
+a:link, a:visited{
+	text-decoration: none; 
+}
+
+.raw, .raw::after, .raw::before{
+	display:table;
+	clear:both;
+	width:100%;
+	
+}
+
+
+div[class^='col']{
+	float: left;
+	padding: 0 15px;
+}
+
+.col3{
+	
+	width: calc(100%*3/12);
+}
+.col4{
+	
+	width: calc(100%*4/12);
+}
+.col9{
+	width: calc(100%* 9/12);
+}
+
+.col6{
+	
+	width: calc(100%*6/12);
+	
+}
+.col10{
+	width: calc(100%* 10/12);
+	
+}
+
+.col12{
+	width: calc(100%);
+}
+
+.offcet-1{
+	
+	margin-left: calc(100%*1/12);
+}
+.offcet-4{
+	
+	margin-left: calc(100%*4/12);
+}
+
+
+.pri-heading{
+	
+	font-size: 14px;
+	text-transform:uppercase;
+	color:#b4ad9e;
+	margin-bottom:30px;
+	font-weight: lighter;
+}
+
+.sec-heading{
+	
+	font-size:14px;
+	color:#626262;
+	margin-bottom: 30px;
+	text-transform:capitalize;
+	
+}
+.para{
+	font-size: 14px;
+	color:#626262;
+	margin-bottom:48px;
+	
+}
+
+/*++++++++++++++++++first section+++++++++++++*/
+
+
+
+.heroimg{
+	padding: 70px 0 95px;
+}
+
+.navbar li{
+	display:inline-block;
+	margin-left: 70px;
+		
+}
+.navbar ul{
+	 display:inline-block;	
+}
+.navbar li a:link, a:visited{
+	padding:5px 10px;
+	color:#626262;
+	display:inline-block;
+	text-transform:uppercase;
+}
+
+
+
+/*   ++++++++++++++++++++++++++second section ++++++++++++++++++++++*/
+.thumbnailsection{
+	padding: 135px 0 124px;
+}
+.thumbnailsection2{
+padding: 100px 0 65px 0;
+}
+
+
+
+
+
+.signup{
+	background-color:#f0f0f0;
+	padding: 70px 0 75px 0;
+}
+
+.form-group{
+position: relative;
+
+}
+
+.form-control{
+display: block;
+width: 100%;
+height: 36px;
+border: 0px;
+border-bottom: 1px solid black;
+background-color: transparent;
+outline: none;
+
+}
+.form-group i{
+	position:absolute;
+	top:10px;
+	right:10px;
+	transform: rotate(45deg);
+}
+
+.btn{
+	padding: 20px 30px;
+	cursor: pointer;
+	border:1px solid #626262;
+	background-color: #f0f0f0;
+	color: #626262;
+	font-size: 20px;
+	transition: all .3s ease-in-out;
+}
+
+.btn:hover,.btn:focus,.btn:active{
+background-color: #626262;
+color: white;
+
+}
+
+.footer{
+background-color: #f0f0f0;
+padding: 40px 0;
+
+}
+.footerlink, .footerlink li{
+	display: inline-block;
+}
+.footerlink li{
+	color: black;
+	margin-right: 15px;
+
+}
+.footerlink li a{
+	color: black;
+
+}
+
+
